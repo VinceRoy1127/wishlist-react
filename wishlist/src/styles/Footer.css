@@ -1,6 +1,14 @@
 .background {
   background-color: #f8f9fa;
   padding: 20px;
-  text-align: center;
+  text-align: center; 
   margin-top: auto; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+.gift-small-circle {
+  background-color: #4338ca;
 }
