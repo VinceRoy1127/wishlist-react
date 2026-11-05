@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 .background {
   background-color: #f8f9fa;
   padding: 20px;
@@ -9,6 +11,38 @@
   
   
 }
-.gift-small-circle {
+.gift-circle-small {
   background-color: #4338ca;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.gift-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gift-copy {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gift-text{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: large;
+  margin: 0;
+}
+
+.gift-text-bold {
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
 }

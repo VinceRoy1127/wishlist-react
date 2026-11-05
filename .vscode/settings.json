@@ -1,0 +1,19 @@
+{
+  "[javascriptreact]": {
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": true,
+      "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true
+  },
+  "[css]": {
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": true,
+      "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true
+  },
+  "css.styleSheets": ["wishlist/src/**/*.css"]
+}
