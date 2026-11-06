@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+.AddGift {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.addg-form {
+    background: linear-gradient(to right, #4338CA, #6029C9, #2A14B4);
+    width: 100%;
+    max-width: 1184px;
+    height: 374px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+
+.addg-form-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    background-color: #724cd1;
+    
+    
+}
+
+.addg-form-text h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.addg-form-text-icon{
+    color: #FFDAD2;
+    font-size: 30px;
+}

@@ -13,9 +13,11 @@ function Footer() {
           <p className="gift-text-bold">Wishlistr</p>
           <p className="gift-text">- Curated gifting simplified</p>
         </div>
+        
       </div>
       <div className="footer-text">
         <p>© 2025 Wishlistr Inc. All rights reserved.</p>
+        
       </div>
 
     </div>
