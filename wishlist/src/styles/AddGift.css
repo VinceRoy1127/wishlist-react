@@ -3,37 +3,32 @@
 
 .AddGift {
     display: flex;
-    margin: 0;
+    margin: 0 20px;
     justify-content: center;
-    align-items: center;
-    
+    align-items: flex-start;
 }
 
 .addg-form {
     background: linear-gradient(to right, #4338CA, #6029C9, #2A14B4);
     width: 100%;
     max-width: 1184px;
-    height: 374px;
+    box-sizing: border-box;
     border-radius: 30px;
-    margin-top: 10px;
+    margin: 30px 0;
+    padding: 28px;
 }
-
-
 
 .addg-form-text {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding-top: 20px;
-    background-color: #724cd1;
-    
-    
+    margin-bottom: 28px;
 }
 
 .addg-form-text h3{
     color: white;
-    font-size: 30px;
+    font-size: clamp(22px, 4vw, 30px);
     text-align: center;
     margin: 0;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -42,4 +37,44 @@
 .addg-form-text-icon{
     color: #FFDAD2;
     font-size: 30px;
+}
+
+.addg-fields {
+    display: grid;
+    gap: 10px;
+    width: min(100%, 620px);
+    margin: 0 auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.addg-fields label {
+    color: white;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.addg-fields input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #d5ccff;
+    border-radius: 10px;
+    font: inherit;
+}
+
+.addg-submit {
+    justify-self: start;
+    margin-top: 12px;
+    padding: 13px 20px;
+    border: 0;
+    border-radius: 10px;
+    background: white;
+    color: #4338ca;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.addg-submit:hover {
+    background: #f0edff;
 }
