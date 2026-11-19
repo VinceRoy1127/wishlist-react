@@ -1,0 +1,36 @@
+.account-page {
+  box-sizing: border-box;
+  width: min(100% - 40px, 480px);
+  margin: 48px auto;
+  flex: 1;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.account-form {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.account-form input {
+  padding: 12px;
+  border: 1px solid #d8d2f3;
+  border-radius: 9px;
+  font: inherit;
+}
+
+.account-form button {
+  padding: 12px;
+  border: 0;
+  border-radius: 9px;
+  background: #4338ca;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.account-form .text-button {
+  background: transparent;
+  color: #4338ca;
+}

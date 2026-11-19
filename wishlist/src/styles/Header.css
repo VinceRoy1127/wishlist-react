@@ -5,7 +5,6 @@
 .header {
     display: flex;
     align-items: center;
-    position: relative;
     gap: 10px;
     margin-top: 10px;
 }
@@ -34,52 +33,8 @@
     margin: 0;
 }
 
-.header-text {
-    color: black;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    justify-content: center;
-    width: 100%;
-    margin: 0;
-
-}
-.header-text a {
-    color: inherit;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    flex: 1;
-    text-align: center;
-    white-space: nowrap;
-    padding: 8px 12px;
-}
-.header-tabs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #E5E1E7;
-    border-radius: 50px;
-    width: min(380px, calc(100vw - 40px));
-    box-sizing: border-box;
-}
-
-.header-text-view.active,
-.header-text-add.active {
-    background-color: #4338ca;
-    color: white;
-    border-radius: 999px;
-}
-
 .header-account {
     margin-left: auto;
-    margin-right: 20px;
 }
 
 .header-account a,
@@ -95,20 +50,13 @@
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
-    .header-tabs {
-        position: static;
-        transform: none;
-        margin-left: auto;
-        width: auto;
-    }
+.header-account {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 20px;
+}
 
-    .header-text a {
-        font-size: 0.9em;
-        padding: 8px;
-    }
-
-    .header-account {
-        margin-right: 10px;
-    }
+.header-account .form-error {
+    margin: 0;
 }

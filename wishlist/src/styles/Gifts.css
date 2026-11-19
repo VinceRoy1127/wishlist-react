@@ -1,0 +1,287 @@
+.folder-page {
+  box-sizing: border-box;
+  width: min(100% - 40px, 1120px);
+  margin: 32px auto;
+  flex: 1;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.folder-heading {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.folder-heading h2 {
+  margin-bottom: 8px;
+}
+
+.folder-notice,
+.folder-empty {
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: #f0edff;
+  color: #342784;
+}
+
+.folder-notice button,
+.folder-form button,
+.gift-form button,
+.gift-card button,
+.folder-actions button {
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 9px;
+  background: #4338ca;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.folder-notice button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.folder-layout {
+  display: grid;
+  grid-template-columns: minmax(210px, 260px) minmax(0, 1fr);
+  gap: 28px;
+}
+
+.folder-sidebar,
+.folder-main {
+  min-width: 0;
+}
+
+.folder-sidebar {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px;
+  border: 1px solid #e1deea;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.folder-sidebar h3 {
+  margin: 8px 0;
+}
+
+.folder-choice {
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: #342784;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.folder-choice.selected {
+  background: #e5e1e7;
+  font-weight: 700;
+}
+
+.folder-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #342784;
+  text-decoration: none;
+}
+
+.folder-link:hover {
+  background: #f0edff;
+}
+
+.folder-form,
+.gift-form {
+  display: grid;
+  gap: 10px;
+}
+
+.folder-form {
+  margin-top: 12px;
+}
+
+.folder-form input,
+.gift-form input,
+.gift-form select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #d8d2f3;
+  border-radius: 9px;
+  font: inherit;
+}
+
+.folder-form label,
+.gift-form label {
+  font-weight: 600;
+}
+
+.folder-main {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+}
+
+.folder-main > h3 {
+  margin: 8px 0 0;
+}
+
+.gift-form {
+  padding: 18px;
+  border: 1px solid #e1deea;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.gift-form h3 {
+  margin: 0 0 4px;
+}
+
+.gift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.gift-card {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 18px;
+  border: 1px solid #e1deea;
+  border-radius: 16px;
+  background: #fff;
+  overflow-wrap: anywhere;
+}
+
+.gift-card > a {
+  color: #342784;
+  font-weight: 700;
+}
+
+.gift-card p {
+  margin: 0;
+  color: #5d5a66;
+  font-size: 0.9rem;
+}
+
+.gift-badge {
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #fff0c2;
+  color: #6b4c00;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.priority-control {
+  display: grid;
+  gap: 6px;
+}
+
+.priority-control select {
+  padding: 9px;
+  border: 1px solid #d8d2f3;
+  border-radius: 9px;
+  font: inherit;
+}
+
+.folder-management {
+  display: grid;
+  gap: 12px;
+  margin: 20px 0;
+  padding: 18px;
+  border: 1px solid #e1deea;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.folder-management h3,
+.folder-management h4,
+.folder-management p {
+  margin: 0;
+}
+
+.folder-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.share-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.share-list li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e1deea;
+}
+
+.folder-management .danger-button,
+.gift-card .danger-button {
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 9px;
+  background: #a3213a;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gift-card .text-button,
+.folder-management .text-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #4338ca;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gift-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.folder-management .folder-delete {
+  justify-self: start;
+  margin-top: 8px;
+}
+
+.folder-gifts {
+  display: grid;
+  gap: 14px;
+}
+
+.folder-gifts > h3 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .folder-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .share-list li {
+    align-items: flex-start;
+  }
+}

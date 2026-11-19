@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth'
 import { supabase } from '../utils/supabase'
+import '../styles/Account.css'
 
 function getSafeRedirectPath(value) {
   if (!value) return '/'
@@ -90,7 +91,7 @@ function Account() {
       ) : (
         <p>To enable accounts, connect a Supabase project using the setup steps in <code>wishlist/README.md</code>.</p>
       )}
-      <Link to="/">Back to wishlist</Link>
+      <Link to="/">Back home</Link>
     </main>
   )
 }

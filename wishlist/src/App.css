@@ -1,0 +1,7 @@
+.home-message {
+  box-sizing: border-box;
+  width: min(100% - 40px, 720px);
+  margin: 48px auto;
+  flex: 1;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
