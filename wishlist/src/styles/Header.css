@@ -76,3 +76,39 @@
     color: white;
     border-radius: 999px;
 }
+
+.header-account {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.header-account a,
+.header-account button {
+    padding: 9px 13px;
+    border: 1px solid #d8d2f3;
+    border-radius: 999px;
+    background: white;
+    color: #4338ca;
+    font: inherit;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .header-tabs {
+        position: static;
+        transform: none;
+        margin-left: auto;
+        width: auto;
+    }
+
+    .header-text a {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .header-account {
+        margin-right: 10px;
+    }
+}

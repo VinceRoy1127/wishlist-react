@@ -62,6 +62,16 @@
     font: inherit;
 }
 
+.addg-fields select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #d5ccff;
+    border-radius: 10px;
+    background: #fff;
+    font: inherit;
+}
+
 .addg-submit {
     justify-self: start;
     margin-top: 12px;
