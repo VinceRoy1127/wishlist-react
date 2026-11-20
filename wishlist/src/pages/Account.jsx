@@ -89,7 +89,11 @@ function Account() {
           {error && <p className="form-error" role="alert">{error}</p>}
         </form>
       ) : (
-        <p>To enable accounts, connect a Supabase project using the setup steps in <code>wishlist/README.md</code>.</p>
+        <p>
+          Accounts are disabled because this build is missing its Supabase configuration.
+          In Vercel, set <code>VITE_SUPABASE_URL</code> and <code>VITE_SUPABASE_ANON_KEY</code>
+          for this project, then redeploy. See the Vercel setup steps in <code>wishlist/README.md</code>.
+        </p>
       )}
       <Link to="/">Back home</Link>
     </main>

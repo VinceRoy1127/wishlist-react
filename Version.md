@@ -22,3 +22,8 @@
 - Added read-only share links and sign-in-required edit links, with owner controls to revoke links and remove collaborators.
 - Added owner-managed gift priorities from 1 (lowest) to 5 (highest), sorted by priority.
 - Added the folder collaboration and ranking migration, including RLS policies and schema-cache refresh.
+
+## 2.1.1
+
+- Fixed collaboration links (vercel.json)
+- Fixed the title of the web app.
